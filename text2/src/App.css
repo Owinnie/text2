@@ -1,11 +1,20 @@
-.App {
-  text-align: center;
-  position: absolute;
-  top: 30%;
-  left: 43%;
-  margin: -50px 0 0 -50px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  /* background-color: #D3D3D3; */
 }
 
+*::after, *::before {
+  box-sizing: border-box;
+}
+
+ .App {
+  text-align: center;
+  background-color: #D3D3D3;
+}
+/*
 h1 {
   font-size: 4.5em;
   font-weight: 900;
@@ -38,18 +47,23 @@ h1 {
 }
 
 .App-header {
-  /* background-color: #282c34; */
+  position: absolute;
+  top: 11%;
+  left: 42%;
+  margin: -50px 0 0 -50px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  /* color: white; */
 }
 
 .App-link {
-  color: #61dafb;
+  color: #156a81;
+  display: inline;
+  margin-right: 15%;
+  margin-left: 3%;
 }
 
 @keyframes App-logo-spin {
@@ -60,3 +74,11 @@ h1 {
     transform: rotate(360deg);
   }
 }
+
+footer div {
+  line-height: 83em;
+}
+
+/* footer section {
+  line-height: 13em;
+} */
