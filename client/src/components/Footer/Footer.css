@@ -1,0 +1,18 @@
+footer {
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width:700px) {
+    footer {
+        justify-content: center;
+        padding-left: 25%;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+}
